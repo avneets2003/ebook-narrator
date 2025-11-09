@@ -1,0 +1,11 @@
+I am sharing some text copied from a page or several pages of a PDF document with you. I want you to perform the following modifications to this text:
+
+1. Remove unnecessary whitespace characters, including newline characters.
+2. A word at the end of a line might be broken into two parts separated by a hyphen. Join the parts if required to create a meaningful word.
+3. There might be some text at the beginning and end of a page, like page number or book name. Remove those.
+4. Sentences at the beginning and end of a page might be incomplete since it is split into two pages. Do not complete such sentences.
+5. Remove any URLs in the text.
+
+Positively do not add any comment or paraphrase the text.
+
+Here's the text:

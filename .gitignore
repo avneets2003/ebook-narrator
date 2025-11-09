@@ -1,4 +1,5 @@
 __pycache__/
 venv/
-resources/.temp/
+resources/
 .env
+config.txt
