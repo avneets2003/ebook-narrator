@@ -4,9 +4,9 @@
 
 Ensure that you have Homebrew installed.
 
-1. `brew install espeak ffmpeg ollama`
+1. `brew install espeak`
 
-2. `brew services start ollama`
+2. `brew install ffmpeg`
 
 3. `python -m venv venv`
 
