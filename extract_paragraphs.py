@@ -20,7 +20,7 @@ def show_timer(stop_event):
             time_str = f"{elapsed}s"
         else:
             minutes, seconds = divmod(elapsed, 60)
-            time_str = f"{minutes}m{seconds}s"
+            time_str = f"{minutes}m {seconds}s"
         sys.stdout.write(f"\rExtracting... Time elapsed: {time_str}")
         sys.stdout.flush()
         time.sleep(0.1)
@@ -40,7 +40,7 @@ def clean_text_with_timer(txt_file):
         print(f"\rExtraction done! Total time: {elapsed}s")
     else:
         minutes, seconds = divmod(elapsed, 60)
-        print(f"\rExtraction done! Total time: {minutes}m{seconds}s")
+        print(f"\rExtraction done! Total time: {minutes}m {seconds}s")
 
 def clean_text(file_path):
     with open(file_path, 'r') as file:
